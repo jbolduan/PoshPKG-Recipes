@@ -9,7 +9,7 @@
       "projectSourceUrl": "https://hg.mozilla.org/mozilla-central",
       "docsUrl": "https://developer.mozilla.org/en-US/Firefox",
       "bugTrackerUrl": "https://bugzilla.mozilla.org",
-      "iconUrl": "https://raw.githubusercontent.com/jbolduan/PoshPKG-Packages/master/firefox/icons/Firefox.png",
+      "iconUrl": "https://raw.githubusercontent.com/jbolduan/PoshPKG-Recipes/master/firefox/assets/Firefox.png",
       "licenseUrl": "https://www.mozilla.org/en-US/MPL/2.0",
       "packageName": "Firefox",
       "packageFullName": "Mozilla Firefox",
@@ -19,7 +19,7 @@
       "tags": "browser firefox mozilla web internet open source",
       "releaseNotes32": "https://www.mozilla.org/en-US/firefox/59.0/releasenotes",
       "releaseNotes64": "https://www.mozilla.org/en-US/firefox/59.0/releasenotes",
-      "packageSourceUrl": "https://github.com/jbolduan/PoshPKG-Packages/tree/master/firefox",
+      "packageSourceUrl": "https://github.com/jbolduan/PoshPKG-Recipes/tree/master/firefox",
       "downloadUrl32": "https://download.mozilla.org/?product=firefox-latest&os=win&lang=en-US",
       "downloadUrl64": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US"
     }
