@@ -42,8 +42,8 @@ function Compare-FirefoxVersion {
     $Filename = $FirefoxUrl.SubString($FirefoxUrl.LastIndexOf("/") + 1)
     $Version = [version]($Filename.Split(" ")[2] -replace ".exe", "")
     if($PackagedVersion -lt $Version) {
-        return $true
+        return @{ "Updated" = $true; "Version" = $Version; "DownloadUrl" = $FirefoxUrl }
     } else {
-        return $false
+        return @{ "Updated" = $false; "Version" = $Version; "DownloadUrl" = $FirefoxUrl }
     }
 }
